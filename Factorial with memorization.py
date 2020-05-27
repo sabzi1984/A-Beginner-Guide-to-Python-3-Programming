@@ -24,7 +24,7 @@ def factorial(num):
                 for i in range(1, num + 1):
                     factorial_value = factorial_value * i
                 fact_cache[num]=factorial_value
-                return  fact_cache[num]
+                return fact_cache[num]
 print(factorial(150000))
 print(factorial(80000))
 print(factorial(120000))
